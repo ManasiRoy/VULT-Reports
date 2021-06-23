@@ -8,7 +8,6 @@
           justify-center
           w-full
           py-2
-          bg-white
           text-sm
           font-medium
           text-gray-700
