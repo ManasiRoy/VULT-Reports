@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.left-container {
+    @apply w-2/12 p-4;
+}
+.right-container {
+    @apply w-10/12 p-4;
+}
