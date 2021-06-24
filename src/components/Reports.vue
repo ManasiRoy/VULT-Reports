@@ -34,19 +34,30 @@
       button.px-4.rounded-md.border.border-gray-200.shadow-sm.py-2.bg-gray-200.ml-auto Export
     .chart-outr
       h1.text-2xl.font-sans.font-semibold.text-gray-700.mb-6 Jun.1,2021-Jun.30,2021
-      h3.text-lg.font-sans.font-semibold.text-gray-700 Jun.2021
-      LineChart
+      .mb-7
+        h3.text-lg.font-sans.font-semibold.text-gray-700 Jun.2021
+        apexchartareadate
+      h3.text-lg.font-sans.font-semibold.text-gray-700 Day of Week
+    .w-full.flex
+      .apexchart-bar-wrap
+        apexchart
+      .apexchart-area-wrap
+        apexchartarea
 </template>
 
 <script>
 import Dropdown from "./Dropdown.vue";
-import LineChart from "./chart.vue";
+import apexchart from "./apexChart.vue";
+import apexchartarea from "./apexChartArea.vue";
+import apexchartareadate from "./apexChartAreaDate.vue";
 
 export default {
   name: "Reports",
   components: {
     Dropdown,
-    LineChart,
+    apexchart,
+    apexchartarea,
+    apexchartareadate,
   },
   // props: {
   //   msg: String,

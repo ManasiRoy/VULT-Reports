@@ -8,3 +8,9 @@
 .right-container {
     @apply w-10/12 p-4;
 }
+.apexchart-bar-wrap {
+    @apply w-2/5;
+}
+.apexchart-area-wrap {
+    @apply w-3/5;
+}
