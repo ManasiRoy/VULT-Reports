@@ -23,6 +23,11 @@ export default {
           categories: ["S", " M", "T", "W", "T", "F", "S"],
         },
         yaxis: {
+          labels: {
+            formatter: function (value) {
+              return value + "$";
+            },
+          },
           tickAmount: 3,
           max: 30,
           // Include a dollar sign in the ticks

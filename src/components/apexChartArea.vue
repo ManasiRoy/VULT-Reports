@@ -27,6 +27,11 @@ export default {
           categories: ["12am", "3", "6", "9", "12pm", "3", "6", "9"],
         },
         yaxis: {
+          labels: {
+            formatter: function (value) {
+              return value + "$";
+            },
+          },
           tickAmount: 2,
           max: 20,
           // Include a dollar sign in the ticks
