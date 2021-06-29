@@ -43,6 +43,7 @@
         apexchart
       .apexchart-area-wrap
         apexchartarea
+    TableLite 
 </template>
 
 <script>
@@ -50,6 +51,7 @@ import Dropdown from "./Dropdown.vue";
 import apexchart from "./apexChart.vue";
 import apexchartarea from "./apexChartArea.vue";
 import apexchartareadate from "./apexChartAreaDate.vue";
+import TableLite from "./dataTable.vue";
 
 export default {
   name: "Reports",
@@ -58,6 +60,7 @@ export default {
     apexchart,
     apexchartarea,
     apexchartareadate,
+    TableLite,
   },
   // props: {
   //   msg: String,

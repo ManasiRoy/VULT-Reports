@@ -15,7 +15,8 @@
     "vue": "^3.0.0",
     "vue-apexcharts": "^1.6.1",
     "vue3-apexcharts": "^1.4.0",
-    "vue3-charts": "^1.1.17"
+    "vue3-charts": "^1.1.17",
+    "vue3-table-lite": "^1.0.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
